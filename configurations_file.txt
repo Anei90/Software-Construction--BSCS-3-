@@ -1,0 +1,14 @@
+en
+conf t
+router rip 
+version 2 
+no auto-summary 
+network 10.0.0.0
+
+* EIGRP
+router eigrp 100
+network 10.0.0.0
+
+# ANEI AGANY THEM
+ACCESS NO: A85201
+REG NO: IS19B00/023
